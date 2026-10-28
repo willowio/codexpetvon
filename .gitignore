@@ -1,0 +1,9 @@
+.DS_Store
+.AppleDouble
+._*
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+backups/
