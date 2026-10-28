@@ -18,3 +18,15 @@ The packaged sprite is byte-for-byte identical to the optimized installed asset.
 These checks cover format and installation behavior. Live Codex rendering was
 not observed during this packaging pass. Startup and hover behavior are not
 claimed fixed.
+
+## Windows and Linux scripts
+
+The Linux Bash installer and uninstaller passed the same nine isolated smoke
+checks on macOS with Python 3 and sha256sum. The unchanged macOS scripts also
+passed all nine checks. ShellCheck and shell formatting checks passed.
+Run `python3 tests/smoke.py linux` or `python3 tests/smoke.py macos` to repeat.
+
+PowerShell scripts were reviewed but not executed: this host has no PowerShell
+runtime. Native Windows/Linux execution and Codex rendering remain untested.
+Windows requires PowerShell 5.1+; Linux requires Bash, Python 3 and sha256sum.
+No scripts change the active pet selection or ChatGPT Work Pets.

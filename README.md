@@ -15,3 +15,8 @@ bash install.sh
 Then simply select him in Pets.
 
 The installer adds a local Codex pet. The ChatGPT Work pet picker uses a separate synced library.
+
+Linux: `bash install-linux.sh` / `bash uninstall-linux.sh` (Bash, Python 3, sha256sum).
+Windows PowerShell: `./install.ps1` / `./uninstall.ps1` (PowerShell 5.1+).
+macOS removal: `bash uninstall.sh`. All scripts respect `CODEX_HOME` and preserve legacy Von IDs.
+Select Von after installing. Codex local-pet availability and rendering on Windows/Linux are unverified.

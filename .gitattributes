@@ -1,0 +1,9 @@
+# Preserve checksummed payload bytes with Windows autocrlf enabled.
+pet.json -text
+SHA256SUMS text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.webp binary
+*.gif binary
+*.png binary
