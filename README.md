@@ -25,6 +25,4 @@ bash install-linux.sh
 
 Then simply select him in Pets.
 
-*Want Von in ChatGPT Work? Give a Pets-enabled Work chat this repo's link and ask it to import him.*
-
 *Windows and Linux haven't been fully tested cuz I'm on a Mac.*
